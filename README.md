@@ -1,34 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a simple web application project called ShareAIPrompts, where users can sign up/in with Google authentication, search for and create helpful AI chatbot prompts and tag the domain the prompts are for. The application was writted using Next.js, following the following tutorial frmo JavaScript Mastery https://www.youtube.com/watch?v=wm5gMKuwSYk. However, apart from the tutorial, the following functionalities were added independently: 
 
-## Getting Started
+- Searching lists of prompts by username, tag, or prompt content
+- Viewing other users' profiles and the prompts they created
+- Toggling between dark mode and light mode.
 
-First, run the development server:
+Tools used:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Next.js
+- JavaScript
+- MongoDB
+- Tailwind CSS
+- Google Auth
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The purpose of this project was to start learning Next.js.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Light/Dark mode toggling
+https://github.com/Yashwin-Sudarshan/project_shareaiprompts/assets/49670540/d7e6f037-f3a8-468c-a7c7-949324347d71
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Creating a prompt
+https://github.com/Yashwin-Sudarshan/project_shareaiprompts/assets/49670540/c344db1f-a81e-4907-a69d-36e7f08e775f
 
-## Learn More
+### Searching prompts
+https://github.com/Yashwin-Sudarshan/project_shareaiprompts/assets/49670540/9d0bf353-5f99-4879-967b-5ff0f17e571e
 
-To learn more about Next.js, take a look at the following resources:
+### Viewing other profiles and their prompts
+https://github.com/Yashwin-Sudarshan/project_shareaiprompts/assets/49670540/b6f9d579-756a-4cbe-8f4e-1e290903085a
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Editing your prompt
+https://github.com/Yashwin-Sudarshan/project_shareaiprompts/assets/49670540/0a8da8d7-bdad-43b5-aeb5-86323b6c5ce1
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Deleting your prompt
+https://github.com/Yashwin-Sudarshan/project_shareaiprompts/assets/49670540/5e047b84-45b6-4673-b838-75e50033b71d
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Sign in
+https://github.com/Yashwin-Sudarshan/project_shareaiprompts/assets/49670540/ba83e63b-0d9f-417c-a5a8-881a4cf42b09
