@@ -18,7 +18,9 @@ const EditPrompt = () => {
 
   useEffect(() => {
     const getPromptDetails = async () => {
-      const response = await fetch(`/api/prompt/${promptId}`);
+      const response = await fetch(`/api/prompt/${promptId}`, {
+        cache: "no-store",
+      });
       const data = await response.json();
 
       setPost({
@@ -43,6 +45,7 @@ const EditPrompt = () => {
           prompt: post.prompt,
           tag: post.tag,
         }),
+        cache: "no-store",
       });
 
       if (response.ok) {
